@@ -4,32 +4,66 @@
 
 # [Mock Me] 🎯
 
+# MockMe 🎯  
+[![TinkerHub](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)](https://www.tinkerhub.org/)  
+[![Useless Projects](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)](https://www.tinkerhub.org/events/Q2Q1TQKX6Q/Useless%2520Projects)
 
-## Basic Details
-### Team Name: [Name]
+> “MockMe – The Emotion Roaster Bot”
 
+🔗 **Live Demo**: [https://rehan-shams.github.io/usless-_project2_MOCKME/](https://rehan-shams.github.io/usless-_project2_MOCKME/)
 
-### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+---
 
-### Project Description
-[2-3 lines about what your project does]
+## 👥 Team Details
 
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+### Team Name: **Kotha**
 
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+### Team Members (AIST Kalamassery, Kochi):
+- **Rehan Shams**
+- **Vandhana**
 
-## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+---
+
+## 💡 Project Description
+
+MockMe is a hilarious emotional chatbot that **mocks your feelings** instead of offering sympathy. Feeling down? It’s ready to roast you. Feeling proud? It’s ready to burst your bubble.
+
+It’s the *emotional damage simulator* you didn’t know you needed.
+
+---
+
+## 🤔 The Problem (That Doesn’t Exist)
+
+Everyone builds apps to support your emotions. What about the art of *roasting*? Where’s the sass, the sarcasm, the savage therapy?
+
+---
+
+## 💥 The Solution (Nobody Asked For)
+
+We built a bot that listens to your emotions and replies with funny, sometimes rude responses — all in good humor. It’s comedy therapy — with zero filters.
+
+---
+
+## 🛠 Technical Details
+
+### For Software:
+
+- **Languages Used**: HTML, CSS, JavaScript
+- **Frameworks**: None
+- **Libraries**: None
+- **Tools**: VS Code, GitHub Pages
+
+---
+
+## ⚙️ Implementation
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/rehan-shams/usless-_project2_MOCKME.git
+
+# Open index.html in browser (no backend required)
 
 For Hardware:
 - [List main components]
