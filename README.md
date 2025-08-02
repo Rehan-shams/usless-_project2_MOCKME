@@ -59,7 +59,7 @@ We built a bot that listens to your emotions and replies with funny, sometimes r
 
 ### Installation
 
-```bash
+bash
 # Clone the repo
 git clone https://github.com/rehan-shams/usless-_project2_MOCKME.git
 
@@ -83,7 +83,6 @@ For Software:
 
 # Screenshots (Add at least 3)
 <img width="540" height="371" alt="image" src="https://github.com/user-attachments/assets/8e176117-6e49-49c4-8720-180e4c3fed1d" />
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
 this gives the user a response aftertelling them your feelings
