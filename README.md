@@ -82,11 +82,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+file:///C:/Users/Rehan%20Shams/Pictures/Screenshots/Screenshot%202025-08-02%20230502.png
+this gives the user a response aftertelling them your feelings
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+file:///C:/Users/Rehan%20Shams/Pictures/Screenshots/Screenshot%202025-08-02%20230844.png
+differetn outcome
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
