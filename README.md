@@ -82,7 +82,9 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-file:///C:/Users/Rehan%20Shams/Pictures/Screenshots/Screenshot%202025-08-02%20230502.png
+<img width="540" height="371" alt="image" src="https://github.com/user-attachments/assets/8e176117-6e49-49c4-8720-180e4c3fed1d" />
+
+
 this gives the user a response aftertelling them your feelings
 
 
