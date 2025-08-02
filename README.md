@@ -87,10 +87,11 @@ this gives the user a response aftertelling them your feelings
 
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-file:///C:/Users/Rehan%20Shams/Pictures/Screenshots/Screenshot%202025-08-02%20230844.png
+file:///C:/Users/Rehan%20Shams/Pictures/Screenshots/Screenshot%202025-08-02%20231120.png
 differetn outcome
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3]
+file:///C:/Users/Rehan%20Shams/Pictures/Screenshots/Screenshot%202025-08-02%20231133.png
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -125,8 +126,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
+- [Rehan]: played a key role in the development of the project by writing the core codebase and ensuring its functionality across all modules. They also designed and implemented the user interface, focusing on both usability and aesthetics. Their combined efforts in coding and UI design significantly contributed to the overall success and user experience of the project.
+- [Vandhana]: contributed significantly to the project by leading the ideation phase, helping shape the core concept and overall direction. They also developed the backend architecture, ensuring robust functionality, data handling, and seamless integration with the frontend. Their strategic thinking and technical expertise were vital to the project's foundation and performance.
 - [Name 3]: [Specific contributions]
 
 ---
