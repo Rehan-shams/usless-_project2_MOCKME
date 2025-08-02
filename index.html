@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MockMe – Roast to Heal 🫦</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 40px 30px;
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+      z-index: 1;
+      transition: transform 0.3s ease;
+    }
+
+    .glass-card:hover {
+      transform: scale(1.02);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      background: linear-gradient(to right, #ff6b6b, #ffb347);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #cccccc;
+      margin-bottom: 20px;
+    }
+
+    input {
+      padding: 10px;
+      font-size: 16px;
+      width: 80%;
+      max-width: 300px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff6b6b;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff4c4c;
+    }
+
+    #roast {
+      margin-top: 30px;
+      font-size: 20px;
+      color: #ffb347;
+      min-height: 40px;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* Background glow */
+    .background-overlay::before {
+      content: "";
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(255, 107, 107, 0.15), transparent 70%);
+      top: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      filter: blur(100px);
+      z-index: 0;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translate(-50%, 0); }
+      50% { transform: translate(-50%, -20px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="background-overlay"></div>
+
+  <div class="glass-card">
+    <h1>MockMe 🤖</h1>
+    <p>Tell me your feelings, and I'll make you better 🫦</p>
+
+    <input type="text" id="feelings" placeholder="Type your feelings..." />
+    <br />
+    <button onclick="getRoast()">Roast Me</button>
+
+    <div id="roast"></div>
+  </div>
+
+  <script>
+    const roastData = {
+      "roasts": [
+        "Oh, you're sad? Quick, someone alert the emoji response team! 😭",
+        "If feelings were Wi-Fi, yours would barely connect. 📶",
+        "You're like a browser with 99 tabs open—and all frozen.",
+        "Big emotions. Tiny logic. Perfect combo. 🧠❌",
+        "Feeling down? Blame your brain’s emotional prank mode.",
+        "You express feelings like a toaster expresses opinions.",
+        "That’s not a feeling—that’s just poor decision-making.",
+        "Let it out. But please, spare the drama soundtrack. 🎻",
+        "Sad again? Must be a day ending in Y.",
+        "You're the human version of buffering..."
+      ]
+    };
+
+    function getRoast() {
+      const feelings = document.getElementById("feelings").value.trim();
+      const roastDiv = document.getElementById("roast");
+
+      if (!feelings) {
+        roastDiv.textContent = "Please share your feelings first 🙄";
+        return;
+      }
+
+      // Deterministic hash from input string
+      let hash = 0;
+      for (let i = 0; i < feelings.length; i++) {
+        hash = feelings.charCodeAt(i) + ((hash << 5) - hash);
+      }
+
+      const index = Math.abs(hash % roastData.roasts.length);
+      const selectedRoast = roastData.roasts[index];
+      roastDiv.textContent = selectedRoast;
+    }
+
+    // Allow pressing Enter to trigger roast
+    document.getElementById("feelings").addEventListener("keypress", function (e) {
+      if (e.key === "Enter") {
+        getRoast();
+      }
+    });
+  </script>
+</body>
+</html>
